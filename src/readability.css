@@ -1,0 +1,650 @@
+/* Shared readability and touch-target rules apply at every breakpoint. */
+.nav-close {
+  display: none;
+}
+@media (max-width: 700px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .sidebar.open {
+    visibility: visible;
+  }
+  .sidebar .nav-close {
+    display: grid;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #efd6e5;
+  }
+}
+.sidebar .nav-item {
+  font-size: 13px;
+  min-height: 46px;
+}
+.sidebar-tagline {
+  font-size: 10px;
+  line-height: 1.8;
+}
+.workspace-label {
+  font-size: 8px;
+}
+.sidebar-mission p {
+  font-size: 11px;
+}
+.sidebar-mission button {
+  font-size: 11px;
+  min-height: 32px;
+}
+.sidebar-profile strong {
+  font-size: 11px;
+}
+.sidebar-profile small {
+  font-size: 10px;
+}
+.topbar-title {
+  font-size: 14px;
+}
+.topbar-subtitle {
+  font-size: 11px;
+}
+.prelaunch-notice,
+.prelaunch-notice button {
+  font-size: 11px;
+}
+.eyebrow {
+  font-size: 10px;
+}
+.hero-copy > p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+.hero-footnote {
+  font-size: 10px;
+}
+.hero-button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.hero {
+  min-height: 394px;
+}
+.principles span {
+  font-size: 11px;
+}
+.section-kicker {
+  font-size: 10px;
+}
+.section-heading p {
+  font-size: 12px;
+}
+.text-button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.category-tabs button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.search-field {
+  width: 225px;
+}
+.search-field input {
+  font-size: 12px;
+  min-height: 42px;
+}
+.results-bar {
+  font-size: 11px;
+  line-height: 1.8;
+}
+.sort-label select {
+  font-size: 11px;
+  min-height: 36px;
+}
+.view-toggle button {
+  min-width: 36px;
+  min-height: 36px;
+}
+.category-tag {
+  font-size: 10px;
+}
+.requester strong {
+  font-size: 12px;
+}
+.location {
+  font-size: 10px;
+}
+.sample-label {
+  font-size: 8px;
+}
+.avatar {
+  height: 33px;
+  width: 33px;
+  font-size: 9px;
+}
+.card-content {
+  padding: 20px 18px 18px;
+}
+.card-content h3 {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.card-content > p {
+  font-size: 12px;
+  line-height: 1.85;
+  min-height: 110px;
+  color: #786774;
+}
+.funding-label {
+  font-size: 11px;
+}
+.funding-label strong {
+  font-size: 13px;
+}
+.funding-label > strong {
+  font-size: 11px;
+}
+.funding-meta {
+  font-size: 10px;
+  line-height: 1.7;
+}
+.card-cta {
+  font-size: 12px;
+  min-height: 44px;
+  padding: 11px;
+}
+.save-button {
+  width: 36px;
+  height: 36px;
+}
+.kindness-banner h3 {
+  font-size: 16px;
+}
+.kindness-banner p {
+  font-size: 12px;
+  color: #806777;
+}
+.kindness-banner > .button {
+  font-size: 11px;
+  min-height: 44px;
+}
+.footer,
+.footer button {
+  font-size: 10px;
+}
+.page-intro > p {
+  font-size: 14px;
+  color: #7c6775;
+}
+.panel > p,
+.panel .muted,
+.muted {
+  font-size: 13px;
+  color: #806b79;
+}
+.button {
+  font-size: 13px;
+  min-height: 44px;
+}
+.notice {
+  font-size: 13px;
+}
+.notice.compact {
+  font-size: 12px;
+}
+.field-label {
+  font-size: 13px;
+}
+input[type='number'],
+select {
+  font-size: 15px;
+  min-height: 46px;
+}
+.small-note,
+.modal .small-note {
+  font-size: 11px;
+  color: #806576;
+}
+.empty-state p {
+  font-size: 13px;
+  color: #816b7b;
+}
+.modal p {
+  font-size: 13px;
+  color: #7f6173;
+}
+.consent-row {
+  font-size: 12px;
+  color: #78566c;
+}
+.error {
+  font-size: 12px;
+}
+.review-details > div {
+  font-size: 13px;
+}
+.stat-card > div > span {
+  font-size: 12px;
+}
+.stat-card small {
+  font-size: 10px;
+}
+.activity-row span strong {
+  font-size: 13px;
+}
+.activity-row small {
+  font-size: 11px;
+}
+.impact-category > div {
+  font-size: 13px;
+}
+.account-card p,
+.setting-row small,
+.settings-reset p {
+  font-size: 12px;
+  color: #806777;
+}
+.setting-row strong {
+  font-size: 14px;
+}
+.upload-zone p {
+  font-size: 12px;
+}
+.stepper li {
+  font-size: 12px;
+}
+.tracking-row > div strong {
+  font-size: 13px;
+}
+.tracking-row small {
+  font-size: 10px;
+}
+.pill {
+  font-size: 11px;
+}
+.trust-card p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #7d6876;
+}
+.launch-list li {
+  font-size: 13px;
+}
+.trust-links a {
+  font-size: 12px;
+}
+.review-row p {
+  font-size: 13px;
+}
+.review-row small {
+  font-size: 11px;
+}
+.review-controls .consent-row,
+.review-controls .button {
+  font-size: 12px;
+}
+.review-controls select {
+  font-size: 12px;
+}
+.inline-label {
+  font-size: 11px;
+}
+.inline-label select {
+  font-size: 12px;
+}
+.audit-row strong,
+.audit-row p {
+  font-size: 12px;
+}
+.audit-row small {
+  font-size: 10px;
+}
+.how-steps p {
+  font-size: 13px;
+}
+.toast {
+  font-size: 12px;
+}
+.swipe-card .card-content > p {
+  font-size: 13px;
+  min-height: 0;
+}
+.swipe-actions .button {
+  font-size: 12px;
+}
+.swipe-area > .muted {
+  font-size: 11px;
+}
+
+@media (max-width: 1150px) {
+  .hero-copy {
+    width: 65%;
+  }
+  .hero-art {
+    opacity: 0.75;
+  }
+  .hero-copy > p {
+    font-size: 12px;
+    max-width: 310px;
+  }
+  .principles span {
+    font-size: 10px;
+  }
+  .card-content > p {
+    font-size: 12px;
+    min-height: 135px;
+  }
+  .card-content h3 {
+    font-size: 16px;
+    min-height: 48px;
+  }
+  .requester {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .sample-label {
+    margin-left: auto;
+    font-size: 7px;
+  }
+  .funding-meta {
+    font-size: 9px;
+  }
+  .card-cta {
+    font-size: 11px;
+  }
+  .category-tabs button {
+    font-size: 11px;
+    padding: 10px 9px;
+  }
+  .search-field {
+    width: 185px;
+  }
+  .results-bar {
+    font-size: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .hero {
+    min-height: 390px;
+  }
+  .hero-copy {
+    width: 73%;
+  }
+  .hero-copy > p {
+    max-width: 250px;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero-art {
+    right: -40px;
+    width: 40%;
+    opacity: 0.65;
+  }
+  .principles span {
+    font-size: 9px;
+  }
+  .search-field {
+    width: 100%;
+  }
+  .card-content h3 {
+    min-height: 48px;
+  }
+  .card-content > p {
+    min-height: 132px;
+  }
+  .card-cta {
+    font-size: 12px;
+  }
+  .requester strong {
+    font-size: 11px;
+  }
+  .location {
+    font-size: 9px;
+  }
+  .card-content {
+    padding: 18px 15px;
+  }
+  .funding-meta {
+    font-size: 9px;
+  }
+  .stat-card > div > span {
+    font-size: 12px;
+  }
+  .kindness-banner p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .topbar-title {
+    font-size: 12px;
+  }
+  .prelaunch-notice {
+    font-size: 10px;
+  }
+  .hero {
+    min-height: 375px;
+  }
+  .hero-copy {
+    width: 76%;
+    padding: 28px 22px;
+  }
+  .hero-copy > p {
+    max-width: 220px;
+    font-size: 12px;
+  }
+  .hero-art {
+    right: -24px;
+    width: 36%;
+    opacity: 0.7;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .hero-footnote {
+    font-size: 8px;
+    max-width: 210px;
+    line-height: 1.8;
+  }
+  .hero-button {
+    font-size: 11px;
+  }
+  .principles span {
+    font-size: 9px;
+  }
+  .principles {
+    align-items: flex-start;
+    gap: 11px;
+  }
+  .principles span {
+    align-items: flex-start;
+  }
+  .principles svg {
+    margin-top: 2px;
+  }
+  .section-heading p {
+    font-size: 12px;
+  }
+  .section-kicker {
+    font-size: 9px;
+  }
+  .category-tabs button {
+    font-size: 11px;
+    min-height: 44px;
+  }
+  .search-field {
+    width: 100%;
+  }
+  .search-field input {
+    font-size: 13px;
+    min-height: 44px;
+  }
+  .results-bar > span {
+    font-size: 11px;
+    max-width: none;
+  }
+  .results-bar > span:first-letter {
+    font-size: inherit;
+  }
+  .results-bar > span:after {
+    content: none;
+  }
+  .results-description {
+    display: none;
+  }
+  .sort-label select {
+    font-size: 10px;
+    min-height: 40px;
+  }
+  .view-toggle button {
+    min-width: 35px;
+    min-height: 40px;
+  }
+  .requester strong {
+    font-size: 12px;
+  }
+  .location {
+    font-size: 10px;
+  }
+  .sample-label {
+    font-size: 8px;
+  }
+  .card-content h3 {
+    font-size: 17px;
+  }
+  .card-content > p {
+    font-size: 12px;
+    color: #786774;
+  }
+  .funding-label {
+    font-size: 11px;
+  }
+  .funding-label strong {
+    font-size: 13px;
+  }
+  .funding-label > strong {
+    font-size: 11px;
+  }
+  .funding-meta {
+    font-size: 10px;
+  }
+  .card-cta {
+    font-size: 12px;
+  }
+  .kindness-banner h3 {
+    font-size: 16px;
+  }
+  .kindness-banner p {
+    font-size: 12px;
+  }
+  .footer,
+  .footer button {
+    font-size: 9px;
+  }
+  .page-intro > p {
+    font-size: 13px;
+  }
+  .notice {
+    font-size: 12px;
+  }
+  .notice.compact {
+    font-size: 11px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .panel > p,
+  .panel .muted {
+    font-size: 13px;
+  }
+  .account-card p,
+  .setting-row small,
+  .settings-reset p {
+    font-size: 12px;
+  }
+  input[type='number'],
+  select {
+    font-size: 16px;
+  }
+  .stepper li {
+    font-size: 10px;
+  }
+  .trust-card p,
+  .launch-list li {
+    font-size: 13px;
+  }
+  .inline-label select {
+    font-size: 10px;
+  }
+  .tracking-row > div strong {
+    font-size: 13px;
+  }
+  .tracking-row small {
+    font-size: 10px;
+  }
+  .modal p {
+    font-size: 13px;
+  }
+  .modal-actions .button {
+    font-size: 12px;
+  }
+  .swipe-actions .button {
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .card-content {
+    padding: 22px;
+  }
+  .card-content h3 {
+    font-size: 18px;
+    min-height: 0;
+  }
+  .card-content > p {
+    font-size: 13px;
+    min-height: 0;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero-copy {
+    width: 80%;
+  }
+  .hero-art {
+    right: -25px;
+    width: 32%;
+    opacity: 0.7;
+  }
+  .sample-label {
+    font-size: 8px;
+  }
+  .category-tabs button {
+    font-size: 10px;
+    gap: 4px;
+  }
+  .results-bar {
+    gap: 5px;
+  }
+  .sort-label select {
+    font-size: 10px;
+    padding: 3px 0;
+  }
+  .results-actions {
+    gap: 5px;
+  }
+  .view-toggle button {
+    min-width: 31px;
+  }
+  .hero-button {
+    font-size: 11px;
+  }
+  .stat-card > div > span {
+    font-size: 11px;
+  }
+  .stepper li {
+    font-size: 10px;
+  }
+}
